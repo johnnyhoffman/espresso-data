@@ -1,0 +1,24 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es6",
+        "watch": true,
+        "allowJs": true,
+        "module": "commonjs",
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": false,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "outDir": "js",
+        "rootDir": "ts",
+        "sourceRoot": "ts",
+        "sourceMap": true,
+        "plugins": [
+            
+        ]
+    }
+}

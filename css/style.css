@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.key {
+    display: table;
+    width: 100%;
+}
+
+.key-row {
+    display: table-row;
+    width: 100%;
+}
+.key-row:hover, .key-row-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.key-name, .key-value, .key-visual-container, .key-controls {
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+    border-right: none;
+}
+
+.key-name, .key-value {
+    padding: 3px 0;
+}
+
+.key-name{
+    width: 300px;
+    padding-right: 20px;
+}
+
+.key-value {
+    width: 50%;
+}
+
+.key-visual-container {
+    width: 16px;
+    height: 16px;
+    padding-right: 10px;
+}
+.key-line {
+    margin: 8px 0;
+}
+.key-block {
+    height: 16px;
+    border-radius: 3px; 
+}
+
+.hover-rect {
+    stroke: transparent;
+    fill: transparent;
+}
+
+.hover-line {
+    stroke: transparent;
+    fill: transparent;
+}
+
+.hover-g-inner:hover .hover-rect, .hover-g-selected .hover-rect {
+    fill: rgba(0, 0, 0, 0.1)
+}
+.hover-g-inner:hover .hover-line, .hover-g-selected .hover-line {
+    stroke: rgba(0, 0, 0, 0.5);
+}
+
+.key-control-min, .key-control-max {
+    width: 30px;
+}
